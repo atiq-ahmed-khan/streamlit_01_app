@@ -1,27 +1,17 @@
-bash
-Ignore Python bytecode files
+# Ignore the streamlit_app directory
+streamlit_app/
+
+# Ignore Python bytecode files
 *.pyc
 *.pyo
 _pycache_/
 
-Ignore virtual environment
+# Ignore virtual environment
 venv/
 env/
 
-Ignore Streamlit configuration files
-.streamlit/
-
-Ignore environment variables file
+# Ignore environment variables file
 .env
 
-Ignore Jupyter notebook checkpoints
-.ipynb_checkpoints/
-
-Ignore VS Code settings (if using VS Code)
-.vscode/
-
-Ignore log files
-*.log
-
-Ignore any other backup files
-*.bak
+# Ignore pyvenv.cfg files
+pyvenv.cfg
